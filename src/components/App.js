@@ -21,7 +21,7 @@ class App extends React.Component {
   addItem = (e) => {
     e.preventDefault();
     const newTask = this.state.currentTask;
-    if (newTask !== "") {
+    if (newTask.text !== "") {
       const items = [...this.state.tasks, newTask];
       this.setState({
         tasks: items,

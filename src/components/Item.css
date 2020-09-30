@@ -1,0 +1,11 @@
+.list-item {
+  color: #fff;
+  width: 300px;
+  background-color: red;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+.list-item p {
+  padding: 10px;
+  font-size: 20px;
+}
