@@ -24,6 +24,8 @@ body {
   min-height: 500px;
   width: 400px;
   margin: 40px auto;
+  border: 3px solid black;
+  border-radius: 33px;
 }
 
 .to-do-form input {
@@ -32,15 +34,22 @@ body {
   width: 250px;
   padding: 15px;
   font-size: 16px;
-  border: none;
   margin: 20px;
   color: white;
+  border: 1px solid black;
+  border-radius: 13px;
+  outline: none;
 }
 .to-do-form button {
   height: 50px;
-  width: 80px;
+  width: 90px;
   background-color: rgba(97, 61, 196, 0.3);
-  border: none;
+  border: 1px solid black;
   color: white;
   font-size: 16px;
+  padding: 10px;
+  border-radius: 13px;
+}
+.to-do-form button:hover {
+  cursor: pointer;
 }
