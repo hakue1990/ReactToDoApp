@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactToDoApp/static/css/main.68e43373.chunk.css",
-    "main.js": "/ReactToDoApp/static/js/main.dffa34cd.chunk.js",
-    "main.js.map": "/ReactToDoApp/static/js/main.dffa34cd.chunk.js.map",
+    "main.css": "/ReactToDoApp/static/css/main.2df3732f.chunk.css",
+    "main.js": "/ReactToDoApp/static/js/main.0481233b.chunk.js",
+    "main.js.map": "/ReactToDoApp/static/js/main.0481233b.chunk.js.map",
     "runtime-main.js": "/ReactToDoApp/static/js/runtime-main.ace17472.js",
     "runtime-main.js.map": "/ReactToDoApp/static/js/runtime-main.ace17472.js.map",
-    "static/js/2.08e4fbe4.chunk.js": "/ReactToDoApp/static/js/2.08e4fbe4.chunk.js",
-    "static/js/2.08e4fbe4.chunk.js.map": "/ReactToDoApp/static/js/2.08e4fbe4.chunk.js.map",
+    "static/js/2.883425a2.chunk.js": "/ReactToDoApp/static/js/2.883425a2.chunk.js",
+    "static/js/2.883425a2.chunk.js.map": "/ReactToDoApp/static/js/2.883425a2.chunk.js.map",
     "index.html": "/ReactToDoApp/index.html",
-    "precache-manifest.9a511bb9cdedf3e14846205d08e74637.js": "/ReactToDoApp/precache-manifest.9a511bb9cdedf3e14846205d08e74637.js",
+    "precache-manifest.ee870bc463b9cf3859ad39d110bb16b4.js": "/ReactToDoApp/precache-manifest.ee870bc463b9cf3859ad39d110bb16b4.js",
     "service-worker.js": "/ReactToDoApp/service-worker.js",
-    "static/css/main.68e43373.chunk.css.map": "/ReactToDoApp/static/css/main.68e43373.chunk.css.map",
-    "static/js/2.08e4fbe4.chunk.js.LICENSE.txt": "/ReactToDoApp/static/js/2.08e4fbe4.chunk.js.LICENSE.txt"
+    "static/css/main.2df3732f.chunk.css.map": "/ReactToDoApp/static/css/main.2df3732f.chunk.css.map",
+    "static/js/2.883425a2.chunk.js.LICENSE.txt": "/ReactToDoApp/static/js/2.883425a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ace17472.js",
-    "static/js/2.08e4fbe4.chunk.js",
-    "static/css/main.68e43373.chunk.css",
-    "static/js/main.dffa34cd.chunk.js"
+    "static/js/2.883425a2.chunk.js",
+    "static/css/main.2df3732f.chunk.css",
+    "static/js/main.0481233b.chunk.js"
   ]
 }
