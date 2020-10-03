@@ -4,16 +4,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ListItems = (props) => {
   const tasks = props.tasks.map((task) => (
-    <div key={task.id}>
+    <div key={task.id} className="list">
       <p>
         {task.text}
-        <span>
+        <span onClick={() => props.delete(task.id)}>
           <FontAwesomeIcon className="faicons" icon="trash" />
         </span>
       </p>
     </div>
   ));
-  return <div className="list">{tasks}</div>;
+  return <div>{tasks}</div>;
 };
 
 export default ListItems;

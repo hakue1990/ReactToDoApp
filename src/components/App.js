@@ -38,9 +38,18 @@ class App extends React.Component {
       });
     }
   };
+  deleteItem = (id) => {
+    const tasks = [...this.state.tasks];
+    const index = tasks.findIndex((task) => task.id === id);
+    tasks.splice(index, 1);
+    this.setState({
+      tasks,
+    });
+  };
   render() {
     return (
       <div className="box">
+        <h1>TODO APP</h1>
         <div className="addTaskBox">
           <input
             value={this.state.currentTask.text}
@@ -50,7 +59,11 @@ class App extends React.Component {
           />
           <button onClick={this.addItem}>Add Task</button>
         </div>
-        <ListItems tasks={this.state.tasks} key={this.state.currentTask.id} />
+        <ListItems
+          tasks={this.state.tasks}
+          key={this.state.currentTask.id}
+          delete={this.deleteItem}
+        />
       </div>
     );
   }

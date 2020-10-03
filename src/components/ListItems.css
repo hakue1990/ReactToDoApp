@@ -1,0 +1,24 @@
+.list {
+  background-color: rgb(134, 204, 152);
+  padding: 10px;
+  width: 400px;
+  margin: 10px;
+  height: 50px;
+  border-radius: 13px;
+}
+.list p {
+  position: relative;
+  padding: 10px;
+  line-height: 10px;
+  font-size: 20px;
+}
+.list p span {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  bottom: 5px;
+}
+
+.list p span:hover {
+  cursor: pointer;
+}

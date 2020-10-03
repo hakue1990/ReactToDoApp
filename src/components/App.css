@@ -4,7 +4,16 @@
   padding: 0;
 }
 body {
-  background-color: #333;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(35, 199, 182, 1) 9%,
+    rgba(38, 214, 150, 1) 30%,
+    rgba(40, 226, 126, 1) 46%,
+    rgba(42, 190, 92, 1) 59%,
+    rgba(45, 253, 69, 0.6977077363896849) 84%
+  );
   color: #fff;
   display: flex;
   justify-content: center;
@@ -13,21 +22,42 @@ body {
 }
 
 .box {
+  border-radius: 10%;
   border: 3px solid black;
   padding: 15px;
   background-color: rgba(39, 196, 99, 0.9);
-  height: 600px;
+  min-height: 600px;
   width: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+.box h1 {
+  padding: 15px;
 }
 .box input {
   padding: 10px;
 }
 .box button {
   display: inline-block;
-  font-family: "Ubuntu", sans-serif;
-  padding: 10px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  line-height: 38px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0 10px 0 10px;
+}
+.box button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: #fff;
+  color: #333;
 }
