@@ -22,11 +22,14 @@ body {
 }
 
 .box {
+  margin-top: 20px;
   border-radius: 10%;
   border: 3px solid black;
   padding: 15px;
   background-color: rgba(39, 196, 99, 0.3);
   min-height: 600px;
+  max-height: 600px;
+  overflow: hidden;
   width: 350px;
   display: flex;
   flex-direction: column;
