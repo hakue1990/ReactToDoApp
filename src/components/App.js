@@ -24,7 +24,8 @@ class App extends React.Component {
       },
     });
   };
-  addItem = () => {
+  addItem = (e) => {
+    e.preventDefault();
     const tasks = [...this.state.tasks];
     tasks.push(this.state.currentTask);
     tasks.reverse();
@@ -51,13 +52,15 @@ class App extends React.Component {
       <div className="box">
         <h1>TODO APP</h1>
         <div className="addTaskBox">
-          <input
-            value={this.state.currentTask.text}
-            type="text"
-            placeholder="add task"
-            onChange={this.handleInput}
-          />
-          <button onClick={this.addItem}>Add Task</button>
+          <form>
+            <input
+              value={this.state.currentTask.text}
+              type="text"
+              placeholder="add task"
+              onChange={this.handleInput}
+            />
+            <button onClick={this.addItem}>Add Task</button>
+          </form>
         </div>
         <ListItems
           tasks={this.state.tasks}
