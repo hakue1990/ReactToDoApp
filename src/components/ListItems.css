@@ -9,14 +9,13 @@
 .list p {
   position: relative;
   padding: 10px;
-  line-height: 10px;
   font-size: 20px;
 }
 .list p span {
   position: absolute;
   right: 10px;
-  font-size: 20px;
-  bottom: 5px;
+  font-size: 25px;
+  bottom: 15px;
 }
 
 .list p span:hover {
