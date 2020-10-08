@@ -1,23 +1,25 @@
 .list {
+  animation: appear 0.5s ease;
+
   background-color: rgb(134, 204, 152);
   padding: 10px;
   width: 300px;
-  margin: 10px;
+  margin: 11px;
   height: 50px;
-  border-radius: 13px;
+  border-radius: 15px;
+  box-shadow: 10px 15px 18px -10px #888888;
 }
 .list p {
   position: relative;
   padding: 10px;
-  font-size: 20px;
 }
 .list p span {
   position: absolute;
   right: 10px;
-  font-size: 25px;
-  bottom: 15px;
+  cursor: pointer;
 }
 
-.list p span:hover {
-  cursor: pointer;
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
 }
